@@ -103,3 +103,10 @@ CHILD  child  s3.sh
 CHILD  LICENSE  MAIN  README.md  copy.sh  destino  main  new_file  s1.sh  s3.sh
 @Iru-Brandon77 ➜ /workspaces/intro-unix-may-2025-online (main) $ ls destino/main/
 child  s3.sh
+
+ls dev
+
+ls etc
+
+ls lib
+
