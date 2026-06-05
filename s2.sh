@@ -31,3 +31,37 @@ cd bin
 sudo cp /workspaces/intro-unix-may-2025-online/hola_binario /bin/hola_binario
 # make direcory
 mkdir nuevo_directorio
+#maunal de instrucciones
+man gcc 
+
+#ayuda rapida de los comandos
+gcc --help
+
+
+#crear el comipilado de un archivo c
+gcc hola.c -o hola_binario
+
+#leer lo que trae el archivo
+file hola_binario
+
+
+#leer lo que trae el archivo
+file hola.c
+
+#leer la ruta actual
+pwd
+
+#me lleva a la ruta home
+cd
+
+#mostrar todos los archivos
+ls -a
+
+#ir al directorio raiz
+cd /
+
+#copiar archivo
+cp
+
+#copiar archivos ruta origen a ruta destino
+cp /workspaces/intro-unix-may-2025-online/hola /bin/hola
