@@ -17,3 +17,22 @@ awk '{print $1}' log.txt
 
 #imprimir la primera, segunda y tercera columna
 awk '{print $1,$2,$3}' log.txt
+
+#imprimir la primera y ultima fila
+awk '{print $1,$NF}' log.txt
+
+awk -F',' '{print $1}' test.csv
+
+dotCSV
+
+head log.txt
+
+tail log.txt
+
+awk 'NR < 10' log.txt
+
+grep "42.236.10.117" log.txt
+
+grep "42.236.10.117" log.txt | awk '{print $7}'
+
+sed 's/Mozilla/Godzilla/g' log.txt
